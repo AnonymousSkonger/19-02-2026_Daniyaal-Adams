@@ -7,18 +7,22 @@ body {
     padding: 0;
     margin: 0;
 }
+
+/*Header Section*/
 header {
     display: flex;
     padding: 10px;
     justify-content: space-between;
 }
 header i {
-    color: forestgreen;
+    color: #228b22;
 }
+
+/*Nav Section*/
 nav {
     display: flex;
-    background-color: forestgreen;
-    color: white;
+    background-color: #228b22;
+    color: #ffffff;
     padding: 10px;
     align-items: center;
     flex-direction: row;
@@ -49,4 +53,12 @@ nav i {
     background-color: yellowgreen;
     border-radius: 10px;
     transition: all 0.3s ease;
+}
+
+/*Responsive code*/
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
 }
