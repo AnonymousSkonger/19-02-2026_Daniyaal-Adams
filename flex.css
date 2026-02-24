@@ -45,6 +45,7 @@ nav i {
 .nav-links a {
     color: white;
     text-decoration: none;
+    transition:  all 0.3s ease;
 }
 .nav-links a:hover {
     border: 3px solid white;
@@ -52,7 +53,35 @@ nav i {
     overflow: visible;
     background-color: yellowgreen;
     border-radius: 10px;
-    transition: all 0.3s ease;
+}
+
+/*Hero Section*/
+#hero {
+    background-image: url(hero-bg.png);
+    height: 80vh;
+    padding: 30px;
+    text-align: center;
+}
+.hero-content {
+    position: relative;
+    top: 20%;
+}
+.hero-content h1, p{
+    color: #ffffff;
+}
+.hero-content a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #228b22;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+.hero-content a:hover {
+    background-color: turquoise;
+    box-shadow: 3px 3px 5px #000000;
 }
 
 /*Responsive code*/
