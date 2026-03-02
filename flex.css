@@ -55,6 +55,11 @@ nav i {
     border-radius: 10px;
 }
 
+/*Main*/
+main p {
+    color: #000000;
+}
+
 /*Hero Section*/
 #hero {
     background-image: url(hero-bg.png);
@@ -66,7 +71,7 @@ nav i {
     position: relative;
     top: 20%;
 }
-.hero-content h1, p{
+.hero-content h1, .hero-content p{
     color: #ffffff;
 }
 .hero-content a {
@@ -82,6 +87,11 @@ nav i {
 .hero-content a:hover {
     background-color: turquoise;
     box-shadow: 3px 3px 5px #000000;
+}
+
+/*About Section*/
+#about {
+    padding: 30px;
 }
 
 /*Responsive code*/
