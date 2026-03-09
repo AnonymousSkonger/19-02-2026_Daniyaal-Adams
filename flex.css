@@ -169,7 +169,7 @@ th {
     cursor: pointer;
 }
 #contact-form button:hover {
-    background: tomato;
+    background: #77e388;
     color: black;
 }
 
