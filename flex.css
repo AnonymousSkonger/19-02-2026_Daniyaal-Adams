@@ -104,7 +104,7 @@ main p {
 
 /*Skills Section*/
 #skills h2 {
-    text-aligh: center;
+    text-align: center;
 }
 .skills-table {
     display: flex;
@@ -212,5 +212,6 @@ footer {
     }
 
 }
+
 
 
