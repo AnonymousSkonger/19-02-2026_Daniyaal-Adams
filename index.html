@@ -71,81 +71,89 @@
                     growing as a developer.
                 </p>
             </div>
+            <div class="about-video">
+                <video controls width="500px">
+                    <source src="Portfolio Info.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
         </section>
 
         <!--Skills Section-->
         <section id="skills">
             <h2>Technical Skills</h2>
-            <div class="front-end">
-                <ul>
-                    <li><strong>Front-End Development</strong>
-                        <ul>
-                            <li>HTML 5</li>
-                            <li>CSS 3</li>
-                            <li>JavaScript</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="back-end">
-                <ul>
-                    <li><strong>Back-End & Programming</strong>
-                        <ul>
-                            <li>Python</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="frameworks">
-                <ul>
-                    <li><strong>Frameworks</strong>
-                        <ul>
-                            <li>Flask</li>
-                            <li>Django</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="data-management">
-                <ul>
-                    <li><strong>Database Management Systems</strong>
-                        <ul>
-                            <li>SQL (Structured Query Language)</li>
-                            <li>Relational Database Concepts</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="op-sys">
-                <ul>
-            <li><strong>Operating Systems</strong>
-                <ul>
-                    <li>Linux
-                        <ul>
-                            <li>Kali Linux (Debian-based distribution for security & penetration testing)</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="dev-tools">
-                <ul>
-                    <li><strong>Development Tools</strong>
-                        <ul>
-                            <li>Git</li>
-                            <li>GitHub</li>
-                            <li>VS Code</li>
-                        </ul>
-                    </li>
-                </ul>
+            <div class="skills-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>CATEGORY</th>
+                            <th>SKILLS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Front-End Development</td>
+                            <td>HTML 5, CSS 3, JavaScript</td>
+                        </tr>
+                        <tr class="grey">
+                            <td>Back-End & Programming</td>
+                            <td>Python</td>
+                        </tr>
+                        <tr>
+                            <td>Frameworks</td>
+                            <td>Flask, Django</td>
+                        </tr>
+                        <tr class="grey">
+                            <td>Database Management Systems</td>
+                            <td>SQL, Relational Database Concepts</td>
+                        </tr>
+                        <tr>
+                            <td>Operating Systems</td>
+                            <td>Linux (Kali Linux)</td>
+                        </tr>
+                        <tr class="grey">
+                            <td>Development Tools</td>
+                            <td>Git, GitHub, VS Code</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </section>
 
         <section id="projects">
 
         </section>
-        <section id="contacts">
 
+        <!--Contact Section-->
+        <section id="contact">
+            <section id="contact-details">
+                <h3>Contact</h3>
+                <a href="mailto:daniyaal.adams26@gmail.com"><i class="fas fa-envelope"></i> daniyaal.adams26@gmail.com</a>
+                <br>
+                <a href="https://github.com/AnonymousSkonger"><i class="fab fa-github"></i> Github</a>
+                <br>
+                <a href="https://www.linkedin.com/in/daniyaal-adams-887668397/overlay/contact-info/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <br>
+                <a href="tel:+27 83 513 9972"><i class="fas fa-phone"></i> +27 83 513 9972</a>
+                <p><i class="fas fa-map-marker-alt"></i> 5 Calista Street, Gqebehra, South Africa</p>
+            </section>
+            <form id="contact-form">
+                <input type="text" name="fullname" placeholder="Full Name" required>
+                <br>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+                <br>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <br>
+                <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                <br>
+                <button type="submit">Send Message</button>
+            </form>
         </section>
     </main>
+
+    <!--Footer Section-->
+    <footer>
+        <p>&copy; 2026 Daniyaal Adams. All rights reserved.</p>
+    </footer>
 </body>
 </html>

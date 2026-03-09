@@ -92,6 +92,97 @@ main p {
 /*About Section*/
 #about {
     padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+/*Skills Section*/
+.skills-table {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+table {
+    width: 100%;
+}
+table, thead, tbody, tr, th, td {
+    border-collapse: collapse;
+    padding: 10px;
+}
+th:first-child{
+    border-top-left-radius: 10px;
+}
+th:last-child{
+    border-top-right-radius: 10px;
+}
+th {
+    background-color: #228b22;
+    color: white;
+}
+.grey {
+    background-color: #d3d3d3;
+}
+.skills-table tr:hover {
+    background-color: #b3b3b3;
+}
+
+/*Contact Section*/
+#contact {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f7f7f7;
+    border-radius: 15px;
+}
+#contact #contact-details a {
+    color: black;
+}
+#contact #contact-details a:hover {
+    color: white;
+}
+#contact-details {
+    flex: 1;
+}
+#contact-form {
+    flex: 1;
+}
+#contact-form input, #contact-form textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#contact-form textarea {
+    resize: none;
+}
+#contact-form button {
+    width: 100%;
+    background: #222;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#contact-form button:hover {
+    background: tomato;
+    color: black;
+}
+
+/*Footer*/
+footer {
+    color: white;
+    background-color: #228b22;
+    padding: 0.7%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 /*Responsive code*/
@@ -99,5 +190,15 @@ main p {
     nav ul {
         flex-direction: column;
         align-items: center;
+    }
+    #about {
+        flex-direction: column;
+        align-items: center;
+    }
+    #contact {
+        flex-direction: column;
+    }
+    #contact-details, #contact-form {
+        width: 95%;
     }
 }
