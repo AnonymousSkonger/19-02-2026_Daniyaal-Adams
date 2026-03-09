@@ -94,6 +94,12 @@ main p {
     padding: 30px;
     display: flex;
     flex-direction: row;
+    gap: 20px;
+}
+.about-content {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: #222 0px 4px 8px;
 }
 
 /*Skills Section*/
@@ -206,3 +212,4 @@ footer {
     }
 
 }
+
