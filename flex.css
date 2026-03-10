@@ -167,7 +167,7 @@ th {
     text-decoration: none;
 }
 #contact #contact-details a:hover {
-    color: white;
+    color: #228b22;
     text-decoration: underline;
 }
 #contact-details {
@@ -231,4 +231,5 @@ footer {
     #contact-details, #contact-form {
         width: 95%;
     }
+
 }
