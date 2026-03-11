@@ -68,6 +68,8 @@ main p {
 /*Hero Section*/
 #hero {
     background-image: url(hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
     height: 80vh;
     padding: 30px;
     text-align: center;
@@ -231,4 +233,5 @@ footer {
     #contact-details, #contact-form {
         width: 95%;
     }
+
 }
