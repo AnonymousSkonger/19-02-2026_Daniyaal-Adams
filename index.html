@@ -10,10 +10,10 @@
     <meta name="keywords" content="Daniyaal Adams Portfolio, Software Developer, Web Development, Cybersecurity, Python, HTML, CSS, JavaScript">
 
     <!--Title-->
-    <title>Projects</title>
+    <title>Portfolio of Daniyaal Adams</title>
 
     <!--Stylesheets-->
-    <link rel="stylesheet" href="flex.css">
+    <link rel="stylesheet" href="style.css" id="style_theme">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
@@ -51,8 +51,9 @@
                 <li><a href="#contacts"><i class="fas fa-envelope"></i> Contacts</a></li>
             </ul>
         </div>
-        <div class="search">
-            <a href=""><i class="fas fa-magnifying-glass"></i></a>
+        <div class="theme">
+            <button onclick="changeTheme('style.css')"><i class="fa fa-tree"></i> Default</button>
+            <button onclick="changeTheme('dark.css')"><i class="fas fa-water"></i> Dark Ocean</button>
         </div>
     </nav>
 
@@ -182,5 +183,8 @@
     <footer>
         <p>&copy; 2026 Daniyaal Adams. All rights reserved.</p>
     </footer>
+
+    <!--Script-->
+    <script src="script.js"></script>
 </body>
 </html>
