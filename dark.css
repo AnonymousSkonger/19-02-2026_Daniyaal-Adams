@@ -18,9 +18,10 @@ header {
     display: flex;
     padding: 10px;
     justify-content: space-between;
+    color: #ffffff;
 }
 header i {
-    color: #22228b;
+    color: #5ca0d1;
 }
 
 /*Nav Section*/
@@ -62,6 +63,30 @@ nav i {
     overflow: visible;
     background-color: #202324;
     border-radius: 10px;
+}
+
+/*Theme Buttons*/
+.theme button {
+    background: none;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/*Normal theme*/
+.theme #normal_theme:hover, .theme #normal_theme:hover i {
+    background-color: #ffffff;
+    color: #228b22;
+    border-color: #228b22;
+}
+
+/*Dark theme*/
+.theme #dark_theme:hover, .theme #dark_theme:hover i {
+    background-color: #ffffff;
+    color: #22228b;
+    border-color: #22228b;
 }
 
 /*Main*/
